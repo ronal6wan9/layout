@@ -1,0 +1,16 @@
+<project>
+ <properties architecture="0" logicalHeight="480" osx_signingId="" windowHeight="0" android_template="0" osx_installerId="" vsync="0" touchToMouse="1" html5_symbols="0" windowWidth="0" version_code="1" splashScaleMode="0" exportMode="0" html5_wasm="0" fps="60" tv_icon="" autorotation="3" retinaDisplay="0" backgroundColor="#ffffff" encryptCode="0" iosDevice="0" version="1.0" scaleMode="3" win_org="GiderosMobile" osx_bundle="com.yourdomain." mouseToTouch="1" html5_fbload="100" win_domain="giderosmobile.com" disableSplash="0" osx_category="5" mouseTouchOrder="0" splash_h_image="" html5_host="" osx_org="GiderosMobile" ios_bundle="com.yourdomain." app_name="" orientation="0" logicalWidth="320" html5_mem="256" winrt_package="com.yourdomain.yourapp" osx_domain="giderosmobile.com" html5_fbinstant="0" build_number="1" html5_pack="0" splash_v_image="" winrt_org="GiderosMobile" packageName="com.yourdomain.yourapp" encryptAssets="0" app_icon="">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <folder path="examples" name="examples">
+  <file name="examples/example-01.lua" excludeFromExecution="1"/>
+  <file name="examples/example-02.lua" excludeFromExecution="1"/>
+  <file name="examples/example-03.lua" excludeFromExecution="1"/>
+  <file name="examples/example-04.lua" excludeFromExecution="1"/>
+  <file name="examples/example-05.lua" excludeFromExecution="1"/>
+ </folder>
+ <file source="layout.lua"/>
+ <file source="main.lua"/>
+</project>
