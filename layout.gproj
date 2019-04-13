@@ -1,16 +1,26 @@
 <project>
- <properties architecture="0" logicalHeight="480" osx_signingId="" windowHeight="0" android_template="0" osx_installerId="" vsync="0" touchToMouse="1" html5_symbols="0" windowWidth="0" version_code="1" splashScaleMode="0" exportMode="0" html5_wasm="0" fps="60" tv_icon="" autorotation="3" retinaDisplay="0" backgroundColor="#ffffff" encryptCode="0" iosDevice="0" version="1.0" scaleMode="3" win_org="GiderosMobile" osx_bundle="com.yourdomain." mouseToTouch="1" html5_fbload="100" win_domain="giderosmobile.com" disableSplash="0" osx_category="5" mouseTouchOrder="0" splash_h_image="" html5_host="" osx_org="GiderosMobile" ios_bundle="com.yourdomain." app_name="" orientation="0" logicalWidth="320" html5_mem="256" winrt_package="com.yourdomain.yourapp" osx_domain="giderosmobile.com" html5_fbinstant="0" build_number="1" html5_pack="0" splash_v_image="" winrt_org="GiderosMobile" packageName="com.yourdomain.yourapp" encryptAssets="0" app_icon="">
+ <properties html5_symbols="0" fps="60" version="1.0" windowWidth="0" win_domain="giderosmobile.com" exportMode="0" mouseToTouch="1" html5_wasm="0" disableSplash="0" vsync="0" splash_v_image="" html5_mem="256" android_template="0" logicalHeight="480" app_icon="" mouseTouchOrder="0" build_number="1" osx_installerId="" logicalWidth="320" windowHeight="0" osx_bundle="com.yourdomain." ios_bundle="com.yourdomain." touchToMouse="1" splashScaleMode="0" scaleMode="3" architecture="0" html5_crash="" encryptCode="0" osx_org="GiderosMobile" html5_fbinstant="0" osx_category="5" html5_host="" winrt_org="GiderosMobile" osx_domain="giderosmobile.com" winrt_package="com.yourdomain.yourapp" app_name="" autorotation="3" tv_icon="" version_code="1" retinaDisplay="0" win_org="GiderosMobile" html5_fbload="100" html5_pack="0" iosDevice="0" encryptAssets="0" orientation="0" backgroundColor="#ffffff" splash_h_image="" osx_signingId="" packageName="com.yourdomain.yourapp">
   <imageScales/>
   <plugins/>
   <exports/>
  </properties>
- <folder path="examples" name="examples">
-  <file name="examples/example-01.lua" excludeFromExecution="1"/>
-  <file name="examples/example-02.lua" excludeFromExecution="1"/>
-  <file name="examples/example-03.lua" excludeFromExecution="1"/>
-  <file name="examples/example-04.lua" excludeFromExecution="1"/>
-  <file name="examples/example-05.lua" excludeFromExecution="1"/>
+ <folder name="examples" path="examples">
+  <file excludeFromExecution="1" name="examples/example-01.lua"/>
+  <file excludeFromExecution="1" name="examples/example-02.lua"/>
+  <file excludeFromExecution="1" name="examples/example-03.lua"/>
+  <file excludeFromExecution="1" name="examples/example-04.lua"/>
+  <file name="examples/example-05-ipad-mini-la.jpg"/>
+  <file name="examples/example-05-ipad-mini-po.jpg"/>
+  <file name="examples/example-05-iphone4-la.jpg"/>
+  <file name="examples/example-05-iphone4-po.jpg"/>
+  <file name="examples/example-05-iphone6-la.jpg"/>
+  <file name="examples/example-05-iphone6-po.jpg"/>
+  <file name="examples/example-05-kindle-fire-la.jpg"/>
+  <file name="examples/example-05-kindle-fire-po.jpg"/>
+  <file excludeFromExecution="1" name="examples/example-05.lua"/>
  </folder>
+ <file source="init.lua"/>
  <file source="layout.lua"/>
  <file source="main.lua"/>
+ <file source="strict.lua"/>
 </project>

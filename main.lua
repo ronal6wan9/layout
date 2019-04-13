@@ -1,3 +1,5 @@
-function rgb(r, g, b) return ((r * 256) + g) * 256 + b end
-
-require "examples/example-01"
+-- require "examples/example-01"
+-- require "examples/example-02"
+-- require "examples/example-03"
+-- require "examples/example-04"
+require "examples/example-05"

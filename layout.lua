@@ -308,9 +308,9 @@ function LayoutManager:regionRect(id)
     rect:setLineThickness(1) -- Outline width
     rect:setFillColor(0xff0000, 1) -- Fill color
     rect:setLineColor(0xC0C0C0) -- Line color
-    stage:addChild(rect)
     return rect
 end
 
--- NOTE: Corona to Gideros
+    -- NOTE: Corona to Gideros
 -- return Layout
+return LayoutManager

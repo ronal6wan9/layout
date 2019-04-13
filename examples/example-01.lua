@@ -6,6 +6,7 @@
 -- content area in between that is padded above and below by 1% of the vertical
 -- display (thus the content area is 83% of the vertical stage).
 -- layout.lua is in parent folder
+-- NOTE: Corona to Gideros
 -- package.path = "../?.lua;" .. package.path
 -- local LayoutManager = require( "layout" )
 -- init a new layout manager
@@ -30,40 +31,11 @@ Layout:addRegion({id = "footer", vertical = "bottom", height = 5})
 
 -- ========================================================================== --
 
--- helper function to display a region as a rect
-local function showRegion(id, fill)
-    local rect = Layout:regionRect(id)
-
-    -- NOTE: Corona to Gideros
-    -- rect.fill = fill or { 0, 0 }
-    -- rect.stroke = { 1, 1 }
-    -- rect.strokeWidth = Layout.pixel
-    fill = fill or {0, 0}
-    if #fill == 3 then fill = {rgb(fill[1], fill[2], fill[3])} end
-    rect:setFillColor(unpack(fill))
-    rect:setLineColor(0xffffff)
-    rect:setLineThickness(1)
-
-    local region = Layout[id]
-
-    -- NOTE: Corona to Gideros
-    -- local text = display.newText( id, region.xCenter, region.yCenter, native.systemFont, 20 * Layout.pixel )
-    -- text.fill = { 1, 1 }
-    local text = TextField.new(
-        nil,
-        id,
-        id,
-        {
-            w = region.width,
-            h = region.height,
-            flags = FontBase.TLF_CENTER | FontBase.TLF_VCENTER
-        }
-    )
-    text:setPosition(region.xCenter, region.yCenter)
-    text:setTextColor(0xffffff)
-end
-
 -- for demo purposes just display the layout regions as rects on the screen
-showRegion("header", {0.5, 0, 0})
-showRegion("content", {1, 0.5})
-showRegion("footer", {0, 0, 0.5})
+-- NOTE: Corona to Gideros
+-- showRegion( "header", {0.5, 0, 0} )
+-- showRegion( "content", {1, 0.5} )
+-- showRegion( "footer", {0, 0, 0.5} )
+showRegion("header", {0.5, 0, 0}, Layout, stage)
+showRegion("content", {1, 0.5}, Layout, stage)
+showRegion("footer", {0, 0, 0.5}, Layout, stage)

@@ -1,6 +1,6 @@
 # layout.lua
 
-A simple but powerful device and display-size independent layout manager for the Corona SDK.
+A simple but powerful device and display-size independent layout manager for the Corona SDK, adapted to Gideros.
 
 ## Overview
 
